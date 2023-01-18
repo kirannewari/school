@@ -1,0 +1,50 @@
+@media only screen and (max-width: 400px) {
+
+  .dropdown-menu {
+    width: 350px !important;}
+      .mtb{
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+  }
+  .know{
+    width: 300px;
+  }
+  .jcc{
+    display: flex;
+    justify-content: center;
+  }
+  .ma_top {
+    margin-top: -280px;
+  }
+  .heading {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    color: rgb(46, 44, 44);
+  }
+  .bo_left_right {
+    border-left: none;
+    border-right: none;
+  }
+  /* .hh{
+    position: none;
+    display: block;
+  } */
+  .kidpp{
+    padding: 5px;
+    font-size: 10px;
+  }
+  .big_box {
+    width: 300px;
+  }
+  .card2{
+    width: 300px;
+  }
+  .card4{
+    width: 300px;
+  }
+  .card5{
+    width: 350px;
+  }
+  .image {width: 300px};
+}

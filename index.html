@@ -1,0 +1,1362 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>School web4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- for icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- for font lobster-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/first.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/first_resp.css">
+    <link rel="stylesheet" href="./css/jsEffect.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <top>
+        <div class="top  flex2 border-bottom">
+            <div class="d-flex my-3 bo_left_right section_body px-1">
+                <div> <i class="bi-telephone-fill orange"></i>
+                    <span>Tel: +83748375-84389</span>
+                </div>
+                <div class="mx-5"><i class="bi-envelope-fill orange"></i>
+                    <span>support@edukit.com</span>
+                </div>
+                <div><i class="bi-book-half orange"></i>
+                    <span>sector 63, noida</span>
+                </div>
+            </div>
+            <div style="background-color:#FF9800;color: white; padding: 10px;" class="px-5 section_body" id="click1">
+                <b>Make An Appoitment</b>
+            </div>
+        </div>
+    </top>
+    <header class="fixed_nav">
+        <!-- <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid mlr">
+                <a class="navbar-brand" href="#"><img src="./img/Icon.png" style="width: 60px;">Edukit
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav> -->
+        <div class="d-flex mlr">
+            <div class="d-flex align-items-center">
+                <div class="logo"><img src="./img/Icon.png" style="width: 50px;"></div>
+                <div class="p-1 h2 mt-2">Edukit</div>
+            </div>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 120px;">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <!-- nav item first -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  active aa" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="green"> Products<i class="bi-chevron-down down_i"></i></div>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+
+
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list green"></i></div>
+                                                <div class="mt">
+                                                    <b class="green">Prfomace Managment</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b class="green">Enagement</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b class="green">ORK & Goals</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b class="green">Grow</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b class="green">Analytices</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b class="green">Compenstion</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <div class="flex3 know green">
+                                                <div class=""><b>App Integrations</b><br>
+                                                    <p class="nogreen">Lorem ipsum dolor sit amet consectetur,
+                                                        adipisicing elit.
+                                                        Illo,
+                                                        ipsam!
+                                                    </p>
+                                                </div>
+                                                <div class=""><span>Know Moree</span> <i class="bi-chevron-right"
+                                                        style="font-size: 10px;"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <!-- nav item second -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active aa" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="green">Solutions<i class="bi-chevron-down down_i"></i></div>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h3 class="h33 mx-2">INDUSTRY</h3>
+                                            <div class="my-3">
+                                                <i class="bi-alarm icon_list"></i><b>Agencies</b>
+                                            </div>
+                                            <div class="my-3">
+                                                <i class="bi-alarm icon_list"></i><b>Professional Services</b>
+                                            </div>
+                                            <div class="my-3">
+                                                <i class="bi-alarm icon_list"></i><b>Technology</b>
+                                            </div>
+                                            <div class="my-3">
+                                                <i class="bi-alarm icon_list"></i><b>Bank and Credit unions</b>
+                                            </div>
+                                            <div class="my-3">
+                                                <i class="bi-alarm icon_list"></i><b>heading</b>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <h3 class="h33">ROLE</h3>
+                                            <div class="my"> <b>Small Size</b><br></div>
+                                            <div class="my"> <b>Small Size</b><br></div>
+                                            <div class="my"> <b>Small Size</b><br></div>
+                                            <h3 class="h33">COMPANY SIZE</h3>
+                                            <div class="my"> <b>Small Size</b><br></div>
+                                            <div class="my"> <b>Small Size</b><br></div>
+                                            <div class="my"> <b>Small Size</b><br></div>
+                                        </div>
+
+                                    </div>
+                                </ul>
+                            </li>
+                            <!-- nav item third -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  active aa" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="green">Coustmoers<i class="bi-chevron-down down_i"></i></div>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b>heading</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b>heading</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b>headingg</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b>heading</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 w-70 d-flex justify-content-center">
+                                            <div class="d-flex align-items-center  know green">
+                                                <div><b>App Integrations</b><br>
+                                                    <p class="nogreen">Lorem ipsum dolor sit amet consectetur,
+                                                        adipisicing elit.
+                                                        Illo,
+                                                        ipsam!
+
+                                                    </p>
+                                                </div>
+
+                                                <div class="mll"><span>Know Moree</span> <i class="bi-chevron-right"
+                                                        style="font-size: 10px;"></i></div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </ul>
+                            </li>
+
+                            <!-- nav item 4th-->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active aa" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="green">Resources of humans<i class="bi-chevron-down down_i"></i>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h3 class="h33 mx-2">LATTICE LIBRARY</h3>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="my-3">
+                                                        <i class="bi-alarm icon_list"></i><b>heading</b>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="my-3">
+                                                        <i class="bi-alarm icon_list"></i><b>heading</b>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="my-3">
+                                                        <i class="bi-alarm icon_list"></i><b>heading</b>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="my-3">
+                                                        <i class="bi-alarm icon_list"></i><b>heading</b>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="my-3">
+                                                        <i class="bi-alarm icon_list"></i><b>heading</b>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="my-3">
+                                                        <i class="bi-alarm icon_list"></i><b>heading</b>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 ">
+                                                    <div class="d-flex mx-3">
+                                                        <div class="know green"><b>Explore All Resources</b><br>
+                                                            <p class="nogreen">Lorem ipsum dolor sit amet consectetur,
+                                                                adipisicing
+                                                                elit.
+                                                                Illo,
+                                                                ipsam!
+                                                            </p>
+                                                            <b>Learn More</b><i class="bi-chevron-right mx-3"
+                                                                style="font-size: 10px;"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <h3 class="h33">RFH COMMUNITY</h3>
+                                            <div class="d-flex my-3">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b>heading</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b>heading</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b>heading</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </ul>
+                            </li>
+                            <!-- nav item 5th -->
+                            <li class="nav-item">
+                                <a class="nav-link  active aa" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="" aria-expanded="false">
+                                    <div class="green"> Pricing</div>
+                                </a>
+
+                            </li>
+                            <!-- nav item 6th -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  active aa" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="green">About<i class="bi-chevron-down down_i"></i></div>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b>heading</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b>heading</b> <span class="headd">HIRING</span>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b>heading</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="d-flex">
+                                                <div><i class="bi-alarm icon_list"></i></div>
+                                                <div class="mt">
+                                                    <b>heading</b>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Incidunt, sequi!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex my-2">
+                            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+            </nav>
+        </div>
+    </header>
+    <section id="top-slide">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div> -->
+            <div class="carousel-inner" style="height: 500px;">
+                <div class="carousel-item active">
+                    <img src="./img/t1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/t2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/t3.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="three-top-cards " data-aos="fade-up" data-aos-duration="2000">
+        <div class="section_body ma_top mb-5">
+            <div class="flex2">
+                <!-- card11111111 -->
+                <div class="d-flex justify-content-center">
+                    <div class="square_box flexx" style="background-color: #FF9800;">
+                        <i class="bi-asterisk"></i>
+                    </div>
+                    <div class="big_box" style="background-color: #00BCD4 !important;">
+                        <h4>Full Day programs</h4>
+                        <p class="mt-3 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste,
+                            alias.</p>
+                        <button class="btn  mt-5 text-white" style="background-color: #ff9800;">Read More</button>
+                    </div>
+                </div>
+                <!-- card 2222222-->
+                <div class="d-flex justify-content-center mtb" data-aos="fade-in">
+                    <div class="square_box flexx" style="background-color: #5D2999 !important;">
+                        <i class="bi-asterisk"></i>
+                    </div>
+                    <div class="big_box" style="background-color:#FF9800;">
+                        <h4>Full Day programs</h4>
+
+                        <p class="mt-3 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste,
+                            alias.</p>
+                        <button class="btn mt-5 text-white" style="background-color: #5D2999;">Read More</button>
+                    </div>
+                </div>
+                <!-- card 33333333-->
+                <div class="d-flex justify-content-center">
+                    <div class="square_box flexx" style="background-color: #00BCD4;">
+                        <i class="bi-asterisk"></i>
+                    </div>
+                    <div class="big_box" style="background-color: #FF5252 !important;">
+                        <h4>Full Day programs</h4>
+
+                        <p class="mt-3 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste,
+                            alias.</p>
+                        <button class="btn mt-5 text-white" style="background-color: #00BCD4;">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+    <section id="our-features">
+        <div class="section_body">
+            <div class="heading pt-5">
+                <h1><span style="color: rgb(1, 0, 0);">Our</span><span
+                        style="color: #FF5252 !important;">&nbsp;Feeatures</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                </p>
+            </div>
+            <div class="flex3">
+                <div class="ww" data-aos="fade-left" data-aos-duration="2000">
+                    <div class="d-flex align-items-center">
+                        <div style="text-align: right;">
+                            <h5 style="color: #00BCD4;">Active Learning</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio.</p>
+                        </div>
+                        <div class="round_box mx-3" style="background-color: #00BCD4"><i class="bi-alarm-fill"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <div style="text-align: right;">
+                            <h5 style="color: #FF5252;">Active Learning</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio.</p>
+                        </div>
+                        <div class="round_box mx-3" style="background-color: #FF5252;"><i class="bi-alarm-fill"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center ">
+                        <div style="text-align: right;">
+                            <h5 style="color: #5D2999;">Active Learning</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio.</p>
+                        </div>
+                        <div class="round_box mx-3" style="background-color: #5D2999;"><i class="bi-alarm-fill"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="2000">
+                    <div style="background-image: url(./img/bb.png);height: 600px; width: 230px;height: 400px;">
+                    </div>
+                </div>
+                <div class="ww" data-aos="fade-right" data-aos-duration="2000">
+
+                    <div class="d-flex align-items-center">
+                        <div class="round_box mx-3" style="background-color: #FF9800;"><i class="bi-alarm-fill"></i>
+                        </div>
+
+                        <div>
+                            <h5 style="color: #FF9800;">Active Learning</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <div class="round_box mx-3" style="background-color: #5D2999;"><i class="bi-alarm-fill"></i>
+                        </div>
+
+                        <div>
+                            <h5 style="color: #5D2999;">Active Learning</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center ">
+                        <div class="round_box mx-3" style="background-color: #00BCD4;"><i class="bi-alarm-fill"></i>
+                        </div>
+
+                        <div>
+                            <h5 style="color: #00BCD4;">Active Learning</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="numbering">
+
+
+        <div style="background-color: rgba(93, 41, 153, 0.7);">
+            <div class="section_body py-5">
+                <div class="flex2 jcc">
+                    <div style="color: white; text-align: center;">
+                        <i class="bi-briefcase-fill" style="font-size: 40px;"></i>
+                        <h2 style="font-size: 3rem;">864</h2>
+                        <h3>Qualified teachers</h3>
+                    </div>
+                    <div style="color: white; text-align: center;">
+                        <i class="bi-briefcase-fill" style="font-size: 40px;"></i>
+                        <h2 style="font-size: 3rem;">1,864</h2>
+                        <h3>Qualified teachers</h3>
+                    </div>
+                    <div style="color: white; text-align: center;">
+                        <i class="bi-briefcase-fill" style="font-size: 40px;"></i>
+                        <h2 style="font-size: 3rem;">1,164</h2>
+                        <h3>Qualified teachers</h3>
+                    </div>
+                    <div style="color: white; text-align: center;">
+                        <i class="bi-briefcase-fill" style="font-size: 40px;"></i>
+                        <h2 style="font-size: 3rem;;">464</h2>
+                        <h3>Qualified teachers</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="our-cources" class="hh">
+        <div style="background-image: url(./img/p2.jpeg);">
+            <div class="section_body">
+                <div class="heading pt-5">
+                    <h1><span style="color: rgb(1, 0, 0);">Our</span><span
+                            style="color: #FF5252 !important;">&nbsp;Courses</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                    </p>
+                </div>
+                <div class="row py-5">
+                    <div class="col-sm-6 mb-3" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="card1" data-aos="fade-up" data-aos-duration="4000">
+                            <div style="background-image:url(./img/t1.jpeg);height: 270px; width: 350px;"></div>
+                            <div class="p-3">
+                                <h2 style="color: #FF9800;">Learning Classes</h2>
+                                <span style="color: #FF9800;font-weight: 600;">Class time :</span><span
+                                    style="font-weight: 600;">&nbsp;9:00am -
+                                    1:00pm</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolorem.</p>
+                                <div class="flex2 pt-1">
+                                    <div style="background-color: #00BCD4;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                    <div style="background-color: #5D2999;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                    <div style="background-color: #FF5252;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-3" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="card1">
+                            <div style="background-image:url(./img/t1.jpeg);height: 270px; width: 350px;"></div>
+                            <div class="p-3">
+                                <h2 style="color: #FF9800;">Learning Classes</h2>
+                                <span style="color: #FF9800;font-weight: 600;">Class time :</span><span
+                                    style="font-weight: 600;">&nbsp;9:00am -
+                                    1:00pm</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolorem.</p>
+                                <div class="flex2 pt-1">
+                                    <div style="background-color: #00BCD4;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                    <div style="background-color: #5D2999;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                    <div style="background-color: #FF5252;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-3" data-aos="fade-right" data-aos-duration="2000">
+                        <div class="card1">
+                            <div style="background-image:url(./img/t1.jpeg);height: 270px; width: 350px;"></div>
+                            <div class="p-3">
+                                <h2 style="color: #FF9800;">Learning Classes</h2>
+                                <span style="color: #FF9800;font-weight: 600;">Class time :</span><span
+                                    style="font-weight: 600;">&nbsp;9:00am -
+                                    1:00pm</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolorem.</p>
+                                <div class="flex2 pt-1">
+                                    <div style="background-color: #00BCD4;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                    <div style="background-color: #5D2999 ;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                    <div style="background-color: #FF5252;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-3" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="card1">
+                            <div style="background-image:url(./img/t1.jpeg);height: 270px; width: 350px;"></div>
+                            <div class="p-3">
+                                <h2 style="color: #FF9800;">Learning Classes</h2>
+                                <span style="color: #FF9800;font-weight: 600;">Class time :</span><span
+                                    style="font-weight: 600;">&nbsp;9:00am -
+                                    1:00pm</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolorem.</p>
+                                <div class="flex2 pt-1">
+                                    <div style="background-color: #00BCD4;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                    <div style="background-color: #5D2999;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                    <div style="background-color: #FF5252;color: #f8f7f5; text-align: center;"
+                                        class="kidpp">
+                                        Capicity<br>
+                                        20 kids
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="hh">
+        <div class="section_body">
+            <div class="heading pt-5">
+                <h1><span style="color: rgb(1, 0, 0);">Our</span><span
+                        style="color: #FF5252 !important;">&nbsp;Gallery</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                </p>
+            </div>
+            <div class="flex2 my-3">
+                <div class="gallery-block mb-3">
+                    <img src="./img/t1.jpeg" class="image">
+                    <div class="overlay1" style="background-color: #05cd4b;"></div>
+                    <div class="middle">
+                        <div class="text"> <i class="bi-flower1"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-block mb-3">
+                    <img src="./img/t1.jpeg" class="image">
+                    <div class="overlay1" style="background-color: #00aad4;"></div>
+                    <div class="middle">
+                        <div class="text"> <i class="bi-flower1"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-block mb-3">
+                    <img src="./img/t1.jpeg" class="image">
+                    <div class="overlay1" style="background-color: #d42a00;"></div>
+                    <div class="middle">
+                        <div class="text"> <i class="bi-flower1"></i></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex2 my-3">
+                <div class="gallery-block mb-3">
+                    <img src="./img/t1.jpeg" class="image">
+                    <div class="overlay1" style="background-color: #7031fa;"></div>
+                    <div class="middle">
+                        <div class="text"> <i class="bi-flower1"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-block mb-3">
+                    <img src="./img/t1.jpeg" class="image">
+                    <div class="overlay1" style="background-color: #a2d400;"></div>
+                    <div class="middle">
+                        <div class="text"> <i class="bi-flower1"></i></div>
+                    </div>
+                </div>
+                <div class="gallery-block mb-3">
+                    <img src="./img/t1.jpeg" class="image">
+                    <div class="overlay1" style="background-color: #d40078;"></div>
+                    <div class="middle">
+                        <div class="text"> <i class="bi-flower1"></i></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="teachres" class="hh">
+        <div style="background-image: url(./img/p2.jpeg);">
+            <div class="section_body">
+                <div class="heading pt-5">
+                    <h1><span style="color: rgb(1, 0, 0);">Our</span><span
+                            style="color: #FF5252 !important;">&nbsp;Teachers</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                    </p>
+                </div>
+                <div class="flex2 py-5">
+                    <div class="card2 mb-3" style="background-color: #7e8183;" data-aos="fade-up"
+                        data-aos-duration="2000">
+                        <div><img src="./img/t2-removebg-preview.png" class="zoom-img"></div>
+                        <div class="text-center " style="background-color:  #00BCD4;">
+                            <h3 class="pt-2">Steve Smith</h3>
+                            <p class="text-white">English Teacherr</p>
+                            <div style="background-color:  #00BCD4;height: 71px;">
+                                <i class="bi-bullseye"
+                                    style="background-color: #FF9800;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                                <i class="bi-bullseye"
+                                    style="background-color: #FF9800;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                                <i class="bi-bullseye"
+                                    style="background-color: #FF9800;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                                <i class="bi-bullseye"
+                                    style="background-color: #FF9800;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card2 mb-3" style="background-color: #FF9800;" data-aos="fade-up"
+                        data-aos-duration="2000">
+                        <div style="background-image: url(./img/t2.jpeg);height: 400px;"></div>
+                        <div class="text-center py-3">
+                            <h3>Steve Smith</h3>
+                            <p class="text-white">English Teacher</p>
+                            <i class="bi-bullseye"
+                                style="background-color: #5D2999;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                            <i class="bi-bullseye"
+                                style="background-color: #5D2999;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                            <i class="bi-bullseye"
+                                style="background-color: #5D2999;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                            <i class="bi-bullseye"
+                                style="background-color: #5D2999;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+
+                        </div>
+                    </div>
+                    <div class="card2 mb-3" style="background-color: #FF5252;" data-aos="fade-up"
+                        data-aos-duration="2000">
+                        <div style="background-image: url(./img/t3.jpeg);height: 400px;"></div>
+                        <div class="text-center py-3">
+                            <h3>Steve Smith</h3>
+                            <p class="text-white">English Teacher</p>
+                            <i class="bi-bullseye"
+                                style="background-color: #00BCD4;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                            <i class="bi-bullseye"
+                                style="background-color: #00BCD4;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                            <i class="bi-bullseye"
+                                style="background-color: #00BCD4;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                            <i class="bi-bullseye"
+                                style="background-color: #00BCD4;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+
+                        </div>
+                    </div>
+                    <div class="card2 mb-3" style="background-color: rebeccapurple;" data-aos="fade-up"
+                        data-aos-duration="2000">
+                        <div style="background-image: url(./img/t4.jpeg);height: 400px;"></div>
+                        <div class="text-center py-3">
+                            <h3>Steve Smith</h3>
+                            <p class="text-white">English Teacher</p>
+                            <i class="bi-bullseye"
+                                style="background-color: #FF9800;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                            <i class="bi-bullseye"
+                                style="background-color: #FF9800;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                            <i class="bi-bullseye"
+                                style="background-color: #FF9800;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+                            <i class="bi-bullseye"
+                                style="background-color: #FF9800;border-radius: 50%; padding: 10px; color: #f8f7f5;"></i>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="video" data-aos="zoom-in" data-aos-duration="2000">
+        <div style="background-color: purple;">
+            <div class="row">
+                <div class="col-sm-6  center heading py-5 m-auto" style="color: white;">
+                    <h2>Watch our latest campus video</h2>
+                    <p style="color: whitesmoke;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                        in.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                    </p>
+                    <div style=" margin-top: 50px;" class="py-5"> <span
+                            style="font-size: 50px;background-color: tomato; padding: 25px;border-radius: 50%;"><i
+                                class="bi-play-btn-fill"></i></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="pricing-table" style="background-color: rgb(225, 222, 222) !important;">
+        <div class="section_body">
+            <div class="heading pt-5">
+                <h1><span style="color: rgb(1, 0, 0);">Pricing</span><span
+                        style="color: #FF5252 !important;">&nbsp;Table</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                </p>
+            </div>
+            <div class="flex2 py-5">
+                <div class="card3 card mb-3" data-aos="fade-up" data-aos-duration="2000">
+
+                    <div class=" flex3 p-3" style="background-color: #FF5252;border-radius: 5px 5px 0px 0px;">
+                        <div>
+                            <p style="font-size: 40px;color: rgb(255, 255, 255);font-weight: 200 !important;"><sup
+                                    style="margin-top: -0.5em !important;font-size: 30px;"> ₹</sup>500</p>
+                        </div>
+                        <p class="text-white">Per/Year</p>
+                    </div>
+                    <div style="background-image: url(./img/t4.jpeg);height: 200px;"></div>
+                    <div class="p-3" style="color: rgb(3, 3, 3);">
+                        <h3>Basic</h3>
+
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+
+                    </div>
+                    <div class="text-center py-3 card-bottom" style="background-color: #FF5252;">
+                        <p style="font-size: 25px;color: white;">Signup</p>
+
+                    </div>
+                </div>
+                <div class="card3 card mb-3" data-aos="fade-up" data-aos-duration="2000">
+
+                    <div class=" flex3 p-3" style="background-color: #FF5252;border-radius: 5px 5px 0px 0px;">
+                        <div>
+                            <p style="font-size: 40px;color: rgb(255, 255, 255);font-weight: 200 !important;"><sup
+                                    style="margin-top: -0.5em !important;font-size: 30px;"> ₹</sup>200</p>
+                        </div>
+                        <p class="text-white">Per/Year</p>
+                    </div>
+                    <div style="background-image: url(./img/t1.jpeg);height: 200px;"></div>
+                    <div class="p-3" style="color: rgb(3, 3, 3);">
+                        <h3>Basic</h3>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+
+                    </div>
+                    <div class="text-center py-3 card-bottom" style="background-color: #FF5252;">
+                        <p style="font-size: 25px;color: white;">Signup</p>
+
+                    </div>
+                </div>
+
+                <div class="card3 card mb-3" data-aos="fade-up" data-aos-duration="2000">
+                    <div class=" flex3 p-3" style="background-color: #FF5252;border-radius: 5px 5px 0px 0px;">
+                        <div>
+                            <p style="font-size: 40px;color: rgb(255, 255, 255);font-weight: 200 !important;"><sup
+                                    style="margin-top: -0.5em !important;font-size: 30px;"> ₹</sup>500</p>
+                        </div>
+                        <p class="text-white">Per/Year</p>
+                    </div>
+                    <div style="background-image: url(./img/t2.jpeg);height: 200px;"></div>
+                    <div class="p-3" style="color: rgb(3, 3, 3);">
+                        <h3>Basic</h3>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+                        <div class="d-flex">
+                            <div><i class="bi-heart mx-2 text-primary"></i></div>
+                            <p style="font-size: 18px;">Provide written test</p>
+
+                        </div>
+
+                    </div>
+                    <div class="text-center py-3 card-bottom" style="background-color: #FF5252;">
+                        <p style="font-size: 25px;color: white;">Signup</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="happy-parents">
+        <div style="background-color: purple;" class="">
+            <div class="heading pt-5" style="color: white;">
+                <h2>Happy Parent's Say</h2>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                </p>
+            </div>
+            <div class="section_body py-5">
+                <div class="row">
+                    <div class="col-sm-4 mb-3">
+                        <div class="card4" style="background-color: #00BCD4;" data-aos="fade-up"
+                            data-aos-duration="2000">
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                                maxime.Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. Cupiditate, maximeLorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Cupiditate, maxime</p>
+                            <div class="flex2 mt-5">
+
+                                <div class="" style="color: white;">
+                                    <h3>Catherne max</h3>
+                                    <small>Designer</small>
+
+                                </div>
+                                <div>
+                                    <img src="./img/Icon.png"
+                                        style="width: 100px;height: 80px;width: 80px;border-radius: 50%;">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-4 mb-3">
+                        <div class="card4" style="background-color: #00BCD4;" data-aos="fade-up"
+                            data-aos-duration="2000">
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                                maxime.Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. Cupiditate, maximeLorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Cupiditate, maxime</p>
+                            <div class="flex2 mt-5">
+
+                                <div class="" style="color: white;">
+                                    <h3>Catherne max</h3>
+                                    <small>Designer</small>
+
+                                </div>
+                                <div>
+                                    <img src="./img/Icon.png"
+                                        style="width: 100px;height: 80px;width: 80px;border-radius: 50%;">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-4 mb-3">
+                        <div class="card4" style="background-color: #00BCD4;" data-aos="fade-up"
+                            data-aos-duration="2000">
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+                                maxime.Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. Cupiditate, maximeLorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Cupiditate, maxime</p>
+                            <div class="flex2 mt-5">
+
+                                <div class="" style="color: white;">
+                                    <h3>Catherne max</h3>
+                                    <small>Designer</small>
+
+                                </div>
+                                <div>
+                                    <img src="./img/Icon.png"
+                                        style="width: 100px;height: 80px;width: 80px;border-radius: 50%;">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <section id="latest-news">
+        <div style="background-image: url(./img/p2.jpeg);">
+            <div class="heading pt-5">
+                <h1><span style="color: rgb(1, 0, 0);">Latest</span><span
+                        style="color: #FF5252 !important;">&nbsp;News</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, in.
+                </p>
+            </div>
+
+            <div class="flex3 section_body py-5">
+                <div class="card5 card mb-3" data-aos="fade-up" data-aos-duration="2000">
+                    <div style="background-image: url(./img/t4.jpeg); height: 300px;" class="card-img-top"></div>
+                    <div class="m-3">
+                        <div class="d-flex my-3">
+                            <div class="text-center text-white" style="background-color: #ff9800;padding: 15px;">
+                                <span class="d-block border-bottom">28</span>
+                                <span>FEB</span>
+                            </div>
+                            <div>
+                                <h3 class="mx-3 " style="color: #ff9800;">Lorem, ipsum dolor sit amet.</h3>
+                            </div>
+
+                        </div>
+                        <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                            autem! consectetur adipisicing elit. Amet, autem!</p>
+
+                    </div>
+                    <div class="card-footer text-white" style="background-color: #ff9800;">
+                        <div class="flex3 m-1">
+                            <div class=""><i class="bi-heart"></i>&nbsp;24 share</div>
+                            <div class=""><i class="bi-heart"></i>&nbsp;24 share</div>
+                            <div class=""><i class="bi-heart"></i>&nbsp;24 share</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card5 card mb-3" data-aos="fade-up" data-aos-duration="2000">
+                    <div style="background-image: url(./img/t2.jpeg); height: 300px;" class="card-img-top"></div>
+                    <div class="m-3">
+                        <div class="d-flex my-3">
+                            <div class="text-center text-white" style="background-color: #00BCD4;padding: 15px;">
+                                <span class="d-block border-bottom">28</span>
+                                <span>FEB</span>
+                            </div>
+                            <div>
+                                <h3 class="mx-3 " style="color: #00BCD4;">Lorem, ipsum dolor sit amet.</h3>
+                            </div>
+
+                        </div>
+                        <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                            autem! consectetur adipisicing elit. Amet, autem!</p>
+
+                    </div>
+                    <div class="card-footer text-white" style="background-color: #00BCD4;">
+                        <div class="flex3 m-1">
+                            <div class=""><i class="bi-heart"></i>&nbsp;24 share</div>
+                            <div class=""><i class="bi-heart"></i>&nbsp;24 share</div>
+                            <div class=""><i class="bi-heart"></i>&nbsp;24 share</div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card5 card mb-3" data-aos="fade-up" data-aos-duration="2000">
+                    <div style="background-image: url(./img/t4.jpeg); height: 300px;" class="card-img-top"></div>
+                    <div class="m-3">
+                        <div class="d-flex my-3">
+                            <div class="text-center text-white" style="background-color: #ff5252;padding: 15px;">
+                                <span class="d-block border-bottom">28</span>
+                                <span>FEB</span>
+                            </div>
+                            <div>
+                                <h3 class="mx-3 " style="color: #ff5252;">Lorem, ipsum dolor sit amet.</h3>
+                            </div>
+
+                        </div>
+                        <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                            autem! consectetur adipisicing elit. Amet, autem!</p>
+
+                    </div>
+                    <div class="card-footer text-white" style="background-color: #ff5252;">
+                        <div class="flex3 m-1">
+                            <div class=""><i class="bi-heart"></i>&nbsp;24 share</div>
+                            <div class=""><i class="bi-heart"></i>&nbsp;24 share</div>
+                            <div class=""><i class="bi-heart"></i>&nbsp;24 share</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="clint-slide">
+
+
+        <div class="" style="background-color: #00BCD4 !important; height: 200px;">
+            <div class="section_body">
+                <div class="flex3 text-white" style="height: 200px;">
+                    <div>
+                        <i class="bi-film"></i> Filmm
+                    </div>
+                    <div>
+                        <i class="bi-film"></i> Filmm
+                    </div>
+                    <div>
+                        <i class="bi-film"></i> Filmm
+                    </div>
+                    <div>
+                        <i class="bi-film"></i> Filmm
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+        <div class="" style="background-image: url(./img/ranbir-kapoor-with-magic-bus-with-magic-bus-participants-1flywithvip-1200x900.jpeg); height: 500px;filter: grayscale(70%)">
+            <div class="section_body">
+                <div class="row pt-5">
+                    <div class="col-sm-4 text-white">
+                        <div class="d-flex py-3">
+                            <div> <a class="navbar-brand" href="#"><img src="./img/Icon.png" style="width: 80px;">
+                                </a></div>
+                            <div> <span class="h3"> Edukit</span><br>
+                                <small>Lorem ipsum dolor, sit amet consectetur</small>
+                            </div>
+                        </div>
+                        <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, nulla!
+                        </p>
+                        <div class="flex1"><i class="bi-asterisk ficon1"></i>&nbsp;&nbsp;&nbsp;&nbsp;12-22-678436</div>
+                        <div class="flex1"><i class="bi-asterisk ficon1"></i>&nbsp;&nbsp;&nbsp;&nbsp;12-22-678436</div>
+                        <div class="flex1"><i class="bi-asterisk ficon1"></i>&nbsp;&nbsp;&nbsp;&nbsp;12-22-678436</div>
+                        <div class="flex1"><i class="bi-asterisk ficon1"></i>&nbsp;&nbsp;&nbsp;&nbsp;12-22-678436</div>
+
+                    </div>
+                    <div class="col-sm-2 text-white">
+                        <h3 class="py-3">Services</h3>
+                        <div class="flex1"><i class="bi-caret-right ficon2"></i>&nbsp;&nbsp;&nbsp;&nbsp;12-22-678436
+                        </div>
+                        <div class="flex1"><i class="bi-caret-right ficon2"></i>&nbsp;&nbsp;&nbsp;&nbsp;12-22-678436
+                        </div>
+                        <div class="flex1"><i class="bi-caret-right ficon2"></i>&nbsp;&nbsp;&nbsp;&nbsp;12-22-678436
+                        </div>
+                        <div class="flex1"><i class="bi-caret-right ficon2"></i>&nbsp;&nbsp;&nbsp;&nbsp;12-22-678436
+                        </div>
+
+                    </div>
+                    <div class="col-sm-3  text-white">
+                        <h3 class="py-3">Twitter Feed</h3>
+                        <div class="d-flex">
+                            <div> <i class="bi-bootstrap-fill ficon1"></i></div>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <div> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem aperiam ex laborum
+                                quae
+                                vel illo enim doloremque neque voluptates tempora!
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div> <i class="bi-bootstrap-fill ficon1"></i></div>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <div> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem aperiam ex laborum
+                                quae
+                                vel illo enim doloremque neque voluptates tempora!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3  text-white">
+                        <h3 class="py-3">Openeing Hours</h3>
+                        <div>
+                            <p class="text-white">Mon -tue: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:00am-10:00pm</p><hr>
+                        </div>
+                        <div>
+                            <p class="text-white">Mon -tue: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:00am-10:00pm</p><hr>
+                        </div><div>
+                            <p class="text-white">Mon -tue: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:00am-10:00pm</p><hr>
+                        </div><div>
+                            <p class="text-white">Mon -tue: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:00am-10:00pm</p><hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/myjQuery.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            AOS.init({ once: true });
+
+        });
+    </script>
+</body>
+
+</html>
