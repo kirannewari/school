@@ -1,7 +1,9 @@
 @media only screen and (max-width: 400px) {
 
   .dropdown-menu {
-    width: 350px !important;}
+    width: 350px !important;
+    margin-left: -150px;
+  }
       .mtb{
     margin-top: 60px !important;
     margin-bottom: 60px !important;
