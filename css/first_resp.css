@@ -36,6 +36,9 @@
     padding: 5px;
     font-size: 10px;
   }
+  .carousel-control-prev , .carousel-control-next{
+margin-top: -250px;
+  }
   .big_box {
     width: 300px;
   }
