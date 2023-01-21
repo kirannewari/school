@@ -42,6 +42,9 @@ margin-top: -250px;
   .big_box {
     width: 300px;
   }
+  .ma_topp{
+    margin-top: 0px;
+  }
   .card2{
     width: 300px;
   }
